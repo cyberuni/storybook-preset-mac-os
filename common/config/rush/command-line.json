@@ -28,6 +28,14 @@
       "watchForChanges": true
     },
     {
+      "name": "build",
+      "commandKind": "bulk",
+      "summary": "Build projects",
+      "incremental": true,
+      "enableParallelism": true,
+      "allowWarningsInSuccessfulBuild": true
+    },
+    {
       "name": "test",
       "commandKind": "bulk",
       "summary": "Test projects",
